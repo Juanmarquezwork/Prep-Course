@@ -101,8 +101,8 @@ function promedioResultadosTest(resultadosTest) {
   var suma = 0;
   for( var i =0; i < resultadosTest.length; i++){
     suma = suma + resultadosTest[i]}
-    {
-      return suma/resultadosTest.length;}
+    
+      return suma/resultadosTest.length;
 }
 
 
@@ -165,7 +165,7 @@ function diaDeLaSemana(numeroDeDia) {
     return "Es fin de semana";
   }
    
-  
+
 } 
 
 
